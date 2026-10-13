@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finalizar compra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="checkout">
+<div class="wrap">
+<div id="header"></div>
+
+<div id="conteudo">
+  <h1>Finalizar compra</h1>
+  <section class="cart" style="margin-top:24px">
+    <form class="sh form" id="form">
+      <h2 class="full">Entrega</h2>
+      <label>Nome<input id="nome" required></label>
+      <label>E-mail<input id="email" type="email" required></label>
+      <label>CEP<input id="cep" required></label>
+      <label>Telefone<input id="tel"></label>
+      <label class="full">Endereço<input id="end" required></label>
+      <h2 class="full" style="margin-top:12px">Pagamento</h2>
+      <label class="full">Forma de pagamento
+        <select><option>Pix</option><option>Cartão de crédito</option><option>Boleto</option></select>
+      </label>
+      <button class="btn azul full" style="min-height:56px">Confirmar pedido</button>
+    </form>
+    <aside class="sh" style="display:flex;flex-direction:column;gap:12px">
+      <h2>Resumo</h2>
+      <div id="resumo" style="display:flex;flex-direction:column;gap:12px"></div>
+    </aside>
+  </section>
+</div>
+
+<div id="footer"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

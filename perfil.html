@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meu perfil</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="perfil">
+<div class="wrap">
+<div id="header"></div>
+
+<h1 id="oi">Perfil</h1>
+<section class="split">
+  <form class="sh form" id="form">
+    <h2 class="full">Meus dados</h2>
+    <label>Nome<input id="nome"></label>
+    <label>E-mail<input id="email" type="email"></label>
+    <label>Telefone<input id="tel"></label>
+    <label>Endereço<input id="end"></label>
+    <button class="btn azul">Salvar</button>
+    <button type="button" class="btn cl" id="sair">Sair</button>
+  </form>
+  <div class="sh">
+    <h2 style="margin-bottom:16px">Pedidos</h2>
+    <div id="pedidos"></div>
+  </div>
+</section>
+
+<div id="footer"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

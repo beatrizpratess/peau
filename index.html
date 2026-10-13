@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peau</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+<div class="wrap">
+<div id="header"></div>
+
+<section class="hero">
+  <div class="hl">
+    <h1>Alta tecnologia e <br>qualidade</h1>
+    <p>Produtos desenvolvido por especialistas</p>
+    <form class="news" id="news">
+      <input type="email" required placeholder="Receba dicas e cupons" aria-label="E-mail">
+      <button class="btn">Cadastrar</button>
+    </form>
+  </div>
+  <div class="hr" id="hart"></div>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:24px">
+  <div class="row" style="align-items:baseline"><h2>Produtos</h2><a href="produtos.html"><u>Ver todos</u></a></div>
+  <div class="grid" id="destaques"></div>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:24px">
+  <div class="row" style="align-items:baseline"><h2>Rotina em 3 passos</h2><a href="rotinas.html"><u>Ver rotinas</u></a></div>
+  <div class="steps">
+    <a class="step" style="--c:var(--lilac)" href="produtos.html?cat=Limpeza"><span class="n">01</span><h3>Limpeza</h3><p>Remove impurezas e excesso de oleosidade, preparando a pele para os próximos passos</p><span class="arr">↗</span></a>
+    <a class="step" style="--c:var(--butter)" href="produtos.html?cat=Hidratação"><span class="n">02</span><h3>Hidratação</h3><p>Mantém a pele macia, hidratada e com sua barreira natural protegida</p><span class="arr">↗</span></a>
+    <a class="step" style="--c:var(--mint)" href="produtos.html?cat=Solar"><span class="n">03</span><h3>Proteção</h3><p>Protege a pele contra os raios UV e ajuda a prevenir manchas e o envelhecimento precoce</p><span class="arr">↗</span></a>
+  </div>
+</section>
+
+<div id="footer"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

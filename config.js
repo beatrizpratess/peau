@@ -1,0 +1,19 @@
+const STORE = {
+  nome: "Peau",
+  logo: "img/peau-logo.png",            
+  moeda: "R$",
+  frete: 19.9,                  
+  freteGratisA: 200,            
+  cupons: { PEAU10: 0.10 }      
+};
+
+const CORES = [["#BED1E1","#4B2E1F"],["#D9C7B8","#4B2E1F"],["#DCE8F1","#4B2E1F"],["#E6D3C8","#4B2E1F"]];
+
+const PRODUTOS = [
+  {id:1,cat:"Limpeza",   nome:"Gel de limpeza",     tipo:"Limpa sem ressecar",      preco:59.9, cor:0, img:"img/sabonete.jpg", desc:"Gel de limpeza facial delicado que remove as impurezas, o excesso de oleosidade e os resíduos de maquiagem sem ressecar ou agredir a pele.", pele:"Todos os tipos de pele", volume:"150 ml", uso:"Aplique uma pequena quantidade sobre as mãos úmidas e esfregue até fazer espuma. Massageie suavemente sobre o rosto molhado em movimentos circulares. Enxágue abundantemente com água. Use diariamente, pela manhã e à noite."},
+  {id:2,cat:"Hidratação",nome:"Hidratante facial",  tipo:"Textura leve em gel-creme",              preco:79.9, cor:1, img:"img/hidratante.jpg",  desc:"Creme facial de textura leve e toque aveludado, ideal para nutrir intensamente a pele, restaurar a barreira cutânea e reter a umidade natural ao longo do dia.", pele:"Todos os tipos de pele", volume:"50 g", uso:"Com o rosto limpo e seco, aplique uma pequena quantidade do produto no rosto e pescoço, massageando suavemente em movimentos ascendentes até a completa absorção. Use diariamente, de manhã e à noite."},
+  {id:3,cat:"Solar",     nome:"Protetor solar",     tipo:"Toque seco",     preco:69.9, cor:2, img:"img/protetor.jpg",    desc:"Protetor solar de amplo espectro com acabamento de toque seco e rápida absorção. Oferece alta proteção contra os raios UVA e UVB, prevenindo o envelhecimento precoce e manchas na pele.", pele:"Todos os tipos de pele", volume:"50 ml", uso:"Aplique abundantemente sobre a pele seca do rosto e pescoço 30 minutos antes da exposição ao sol. Reaplique a cada 2 horas ou após suor intenso, nadar ou secar-se com toalha."},
+  {id:4,cat:"Séruns",    nome:"Vitamina C",tipo:"Viço e uniformidade",                    preco:99.9, cor:3, img:"img/serum.jpg",       desc:"Sérum concentrado antioxidante de rápida absorção. Auxilia na uniformização do tom da pele, combate os radicais livres, melhora a luminosidade natural e estimula a produção de colágeno.", pele:"Peles opacas, com manchas ou que buscam prevenção antissinais e luminosidade", volume:"30 ml", uso:"Com a pele limpa e seca, aplique de 3 a 5 gotas no rosto e pescoço. Espalhe suavemente até a absorção total. Utilize de manhã (antes do protetor solar) ou à noite."},
+  {id:5,cat:"Limpeza",   nome:"Tônico facial",      tipo:"Prepara a pele",                         preco:54.9, cor:0, img:"img/tonico.jpg",      desc:"Tônico equilibrante que reestabelece o pH natural da pele, desobstrui os poros e prepara a cútis para absorver melhor os passos seguintes da rotina de cuidados.", pele:"Todos os tipos de pele", volume:"200 ml", uso:"Após a limpeza do rosto, aplique o produto em um disco de algodão ou diretamente nas palmas das mãos e pressione suavemente sobre a pele do rosto e pescoço. Não é necessário enxaguar. Use de manhã e à noite."},
+  {id:6,cat:"Hidratação",nome:"Argila verde",   tipo:"Para uso semanal",                       preco:64.9, cor:1, img:"img/mascara.jpg",     desc:"Tratamento purificante e detox profundo. A argila verde auxilia no controle do excesso de oleosidade, minimiza o tamanho dos poros e possui propriedade adstringente que matifica a pele.", pele:"Peles mistas, oleosas e com tendência à acne.", volume:"100 g", uso:"Com a pele limpa, aplique uma camada uniforme sobre o rosto, evitando o contorno dos olhos e boca. Deixe agir de 10 a 15 minutos (sem deixar a argila secar completamente). Enxágue bem com água em abundância. Use de 1 a 2 vezes por semana."}
+];

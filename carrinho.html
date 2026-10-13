@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carrinho</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="carrinho">
+<div class="wrap">
+<div id="header"></div>
+
+<h1>Seu carrinho</h1>
+<section class="cart">
+  <div id="itens"></div>
+  <aside class="sh" style="display:flex;flex-direction:column;gap:14px">
+    <h2>Resumo</h2>
+    <div id="resumo" style="display:flex;flex-direction:column;gap:12px"></div>
+    <label>Cupom
+      <span style="display:flex;gap:8px"><input id="cupom" placeholder="Digite o código"><button class="btn" id="aplicar">Aplicar</button></span>
+    </label>
+    <button class="btn azul" id="fin" style="min-height:56px">Finalizar compra</button>
+  </aside>
+</section>
+
+<div id="footer"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

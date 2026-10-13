@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Entrar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="login">
+<div class="wrap">
+<div id="header"></div>
+
+<section class="auth">
+  <aside class="auth-side">
+    <img src="img/peau-logo.png" alt="Peau" class="auth-logo" onerror="this.outerHTML='<span class=mark>peau ✦</span>'">
+    <h2>Sua pele, sua rotina.</h2>
+    <ul>
+      <li>Acompanhe seus pedidos</li>
+      <li>Salve seus produtos favoritos</li>
+      <li>Monte sua rotina de cuidados</li>
+    </ul>
+    <i class="a1"></i><i class="a2"></i>
+  </aside>
+  <div class="auth-card">
+    <div class="seg">
+      <button type="button" class="on" id="t1">Entrar</button>
+      <button type="button" id="t2">Criar conta</button>
+    </div>
+    <h1 id="tit"></h1>
+    <p id="sub" class="sm"></p>
+    <form class="stack" id="form">
+      <label id="cn">Nome<input id="nome" placeholder="Seu nome"></label>
+      <label>E-mail<input id="email" type="email" required placeholder="voce@email.com"></label>
+      <label>Senha<input type="password" required minlength="6" placeholder="Mínimo de 6 caracteres"></label>
+      <a href="#" id="fg" class="sm ac" style="font-weight:700">Esqueci minha senha</a>
+      <button class="btn azul" id="ok" style="min-height:48px">Entrar</button>
+    </form>
+  </div>
+</section>
+
+<div id="footer"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
